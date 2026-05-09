@@ -1,0 +1,105 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:tzone://Microsoft/Utc
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Douglas Angus:mailto:dangus@bond.edu.au
+DESCRIPTION:Hello all\,\n\nThis semesters shedule is below. Feel free to at
+ tend in person or via Zoom. The same link/Zoom meeting can be used through
+ out the semester.\n\nJoin from a PC\, Mac\, iOS or Android: https://bond.z
+ oom.us/j/91823130345\n\n  *   Date: Fri 29 May\n\n     *   Article: Measur
+ ement schmeasurement: Questionable measurement practices and how to avoid 
+ them<https://doi.org/10.1177/2515245920952393>\n\n     *   Topic: Psycholo
+ gy may have a measurement crisis at least as serious as its replication cr
+ isis\, and most researchers can't tell the difference.\n\n  *   Date: Fri 
+ 12 Jun\n\n     *   Article: Investigating the reproducibility of the socia
+ l and behavioural sciences<https://www.nature.com/articles/s41586-026-1020
+ 3-5>\n\n     *   Topic: How often can social and behavioural findings be r
+ eproduced from the original data and code?\n\n  *   Date: Fri 26 Jun\n\n  
+    *   Article: #bropenscience is broken science<https://www.bps.org.uk/ps
+ ychologist/bropenscience-broken-science>\n\n     *   Topic: Does the open 
+ science movement have a culture problem?\n\n  *   Date: Fri 10 Jul\n\n    
+  *   Article: Pre-registration: why and how<https://myscp.onlinelibrary.wi
+ ley.com/doi/10.1002/jcpy.1208>\n\n     *   Topic: A practical case for why
+  preregistration matters and what it actually constrains.\n\n  *   Date: F
+ ri 24 Jul\n\n     *   Article: A framework for assessing the trustworthine
+ ss of scientific research findings<https://www.pnas.org/doi/10.1073/pnas.2
+ 536736123>\n\n     *   Topic: Trustworthiness isn't a single methodologica
+ l virtue but a systems-level property. How do we evaluate this?\n\n  *   D
+ ate: Fri 7 Aug\n\n     *   Article: Combining Psychology with Artificial I
+ ntelligence: What could possibly go wrong?<https://philpapers.org/rec/VANC
+ PW>\n\n     *   Topic: The authors have a list.\n\nThanks!\n\nDoug\, Jacin
+ ta\, Dan\n\n\n
+RRULE:FREQ=WEEKLY;UNTIL=20260807T050000Z;INTERVAL=2;BYDAY=FR;WKST=MO
+UID:040000008200E00074C5B7101A82E00800000000C33F20BB95DEDC01000000000000000
+ 010000000BA9429753FE1CE4AA1BAE7D0166A8573
+SUMMARY:Bond ReproducibiliTea
+DTSTART:20260529T050000Z
+DTEND:20260529T060000Z
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260509T104250Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:https://bond.zoom.us/j/91823130345
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:https://bond.zoom.us/j/91823130345
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"https://bond.zoom.us/j/91823130345"\
+ ,"LocationAnnotation":""\,"LocationUri":""\,"LocationStreet":""\,"Location
+ City":""\,"LocationState":""\,"LocationCountry":""\,"LocationPostalCode":"
+ "\,"LocationFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Douglas Angus:mailto:dangus@bond.edu.au
+RECURRENCE-ID:20260529T050000Z
+UID:040000008200E00074C5B7101A82E00800000000C33F20BB95DEDC01000000000000000
+ 010000000BA9429753FE1CE4AA1BAE7D0166A8573
+SUMMARY:Bond ReproducibiliTea
+DTSTART:20260529T050000Z
+DTEND:20260529T060000Z
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260509T111036Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:https://bond.zoom.us/j/91823130345
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:3
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
